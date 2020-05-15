@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+header, div, footer {
+    position: fixed;
+}
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    padding: 5px 0px 5px 0px;
+    background: linear-gradient(to bottom, #CE3A12, #fff);
+}
+header img {
+    width: 55%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 25%;
+    height: 85%;
+    padding: 0px 0px 0px 0px;
+    display: block;
+    float: left;
+}
+.left img {
+    width: 100%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    box-shadow: #A9A9A9 3px 5px 10px 3px;
+}
+.center {
+    display: block;
+    float: left;
+    height: 85%;
+    width: 50%;
+    left: 25%;
+    bottom: 0;
+}
+.center .text {
+    display: block;
+    width: 50%;
+    height: 42%;
+}
+.center .text .text_left {
+    display: block;
+    height: 42%;
+    width: 25%;
+    left: 25%;
+}
+.center .text .text_left .text_left_text {
+    width: 25%;
+    padding: 5px 10px 10px 10px;
+    top: 17%;
+}
+.center .text .text_right {
+    display: block;
+    height: 42%;
+    width: 25%;
+    right: 25%;
+}
+.center .text .text_right .text_right_text {
+    width: 25%;
+    padding: 5px 10px 10px 10px;
+    top: 17%;
+}
+.map {
+    display: block;
+    height: 43%;
+    width: 50%;
+    left: 25%;
+    bottom: 0;
+    padding: 7px 7px 7px 7px;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+}
+.right {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 25%;
+    height: 85%;
+    padding: 0px 0px 0px 0px;
+    display: block;
+    float: right;
+}
+.right img {
+    box-shadow: #A9A9A9 -3px 5px 10px 3px;
+    width: 100%;
+    height: 50%;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
